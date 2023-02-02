@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.card{
+    background-color: white;
+    border-color: #526657;
+    border-style: ridge;
+    color: white;
+    background-color: #666666;
+    border-radius: 125% / 125%;
+    padding: 20px;
+}
+form>input  {
+    margin: 15px 0 15px 0;
+    border-radius: 20px;
+    border-style: solid;
+    padding: 10px;
+}
+#botao{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    transition: all 0.2s ease;
+
+}
+#botao:hover{
+    background-color: #5C6664;
+}
+#fundo{
+    background-color: #191919;
+}
+#mensagem{
+    color: white;
+    display: none;
+}
