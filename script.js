@@ -18,12 +18,7 @@ botao.addEventListener('click', function(){
             });
             alert("Email enviado!");}
         }
-        
     catch (e){
         alert ("Algo deu errado: "+e);
     }
 });  
-document.addEventListener("DOMContentLoaded", function(event) {
-    if(cont >= 1) mensagem.style.display = "block";
-    console.log(cont);
-  });
