@@ -8,7 +8,7 @@ botao.addEventListener('click', function(){
         if(!email.value && !assunto.value && !texto.value) alert("Digite");
         else{
             fetch(`https://ntfy.sh/mensagem`, {
-                method: 'POST', // PUT works too
+                method: 'POST',
                 headers: {
                     'Title' : `${assunto.value}`,
                     'Email': `${email.value}`
